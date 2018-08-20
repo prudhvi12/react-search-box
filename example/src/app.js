@@ -18,7 +18,7 @@ export default class App extends Component {
       loading: true
     });
 
-    fetch('https://api.github.com/search/repositories?q=topic:ruby+topic:rails')
+    fetch('')
     .then(res => res.json())
     .then(data => {
       this.setState({
